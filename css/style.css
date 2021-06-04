@@ -1,0 +1,120 @@
+/* Class */
+.espace-left {
+    margin-left: 20px;
+}
+
+
+
+.error, .clear-margin {
+    margin: 0;
+    padding: 0;
+}
+
+.card-espace {
+    margin-bottom: 10px;
+}
+
+.city-name {
+    text-align: center;
+    font-size: 1.5em
+}
+.city-name  span{
+    font-size: .55em;
+}
+
+.city-name  span sup{
+    padding: 1px 5px;
+    border-radius: 7px;
+
+    color: #fff;
+    background-color: orange;
+
+    vertical-align: text-top;
+}
+
+.city-temp {
+    text-align: center;
+    font-size: 4rem;
+
+    margin-top: -4%;
+    margin-bottom: -3%;
+}
+.city-temp span{
+    font-size: 0.669em;
+    line-height: 2;
+    vertical-align: text-top;
+}
+
+.temp-icon{
+    text-align: center;
+     font-size: 4em;
+     font-weight: lighter;
+     margin-top: -5%;
+     margin-bottom: -5%;
+}
+.temp-description{
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: -3%;
+    margin-bottom: -3%;
+}
+/* Tags */
+
+body {
+    background-color: rgb(0, 0, 95);
+    color: white;
+    margin: 5px;
+    /* font-family: 'Merriweather', serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+    margin-bottom: 40px;
+}
+
+input#city {
+    background-color: rgb(0, 0, 95);
+    color:white;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+    box-shadow: none;
+    font-size: 1.5em;
+    padding: 0;
+}
+
+input#city::placeholder{
+    color:white;
+    opacity: 1;
+}
+
+button#send:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+p#error {
+    margin: 0px 0px 5px 0px;
+    height: 26px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: small;
+}
+
+div#response{
+    color: #333;
+    text-transform: uppercase;
+}
+
+footer{
+    margin: 0px;
+}
+
+footer p{
+    padding: 10px 0px 5px 0px;
+    margin: 0px;
+    background-color: rgba(2, 2, 30, 0.9);
+    vertical-align: bottom;
+}

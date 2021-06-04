@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css" integrity="sha512-r/Gan7PMSRovDus++vDS2Ayutc/cSdl268u047n4z+k7GYuR7Hiw71FsT3QQxdKJBVHYttOJ6IGLnlM9IoMToQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    
+    <script src="js/weatherApi.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Simple Weather</title>
+
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Simple Weather</h1>
+            <form>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="col-8 col-sm-6 col-md-4">
+                            <input id="city" class="form-control" type="text" placeholder="Search for a city" autofocus autocomplete="off">
+                        </div>
+                        <span class="input-group-btn col-4 col-sm-4 col-md-4">
+                            <button id="send" class="btn btn-defaulf btn-danger espace-left"type="submit">Submit</button>
+                        </span>
+                    </div>
+                    <p id=error>
+
+                    </p>
+                </div>
+            </form>
+        </div>
+        <div id="response">
+            <div class="container">
+                <div class="row row-sizing">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="navbar fixed-bottom clear-margin">
+                    <div class="col-12">
+                        <p class="text-center">
+                            <small>&copy;2021 Harrison M Freitas. All rights reseved.</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
