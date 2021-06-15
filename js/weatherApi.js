@@ -62,6 +62,7 @@ function closeCard(cityName){
         const idCity = "#" + cityName.replace(" ","");
         $(idCity).remove();
         delete cities[cities.indexOf(cityName)];
+        citiesStorage.setItem("cities",cities)
     };
 };
 
